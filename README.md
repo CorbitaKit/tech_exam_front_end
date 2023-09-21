@@ -16,6 +16,10 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
+```sh
+change VITE_VUE_APP_API_URL in .env into the back-end url
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh
