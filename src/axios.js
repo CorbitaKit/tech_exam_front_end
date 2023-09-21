@@ -1,9 +1,6 @@
 // axios.js
 import axios from 'axios';
 
-const instance = axios.create({
-  baseURL: 'http://localhost/api',
-  timeout: 5000,
-});
+axios.defaults.baseURL = import.meta.env.VITE_VUE_APP_API_URL
 
-export default instance;
+export default axios;
